@@ -1,0 +1,14 @@
+.vscode/
+.cache/
+
+build/
+
+*.html
+*.jpg
+*.png
+*.gif
+
+*.md
+!README.md
+
+*.exe
