@@ -229,7 +229,7 @@ def try_into_code_block(messages: list[str]) -> str | None:
             content += prefix + msg
             continue
         should_break = False
-        if content[-1] == '\n':
+        if len(content) > 0 and content[-1] == '\n':
             content += prefix + '\n'
         else:
             content += '\n'
